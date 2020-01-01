@@ -24,9 +24,8 @@ var numJewelsInStonesIt = function(J, S) {
             cc = S.charAt(j);
             
             if(c === cc) {
-                count++
+                count++;
             }
-
         }
     }
     return count;
